@@ -1,6 +1,6 @@
 const expect = require('unexpected').clone();
 const supertest = require('supertest');
-const app = require('..');
+const app = require('../src');
 
 describe('Server spec', () => {
 
